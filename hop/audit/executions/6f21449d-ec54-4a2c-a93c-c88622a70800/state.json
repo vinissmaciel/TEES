@@ -1,0 +1,17 @@
+{
+  "executionType" : "Workflow",
+  "parentId" : null,
+  "id" : "6f21449d-ec54-4a2c-a93c-c88622a70800",
+  "name" : "lattes",
+  "copyNr" : null,
+  "loggingText" : "2025/04/05 21:32:53 - lattes - Start of workflow execution\r\n2025/04/05 21:32:53 - lattes - Starting action [ Dados_Pesquisadores_Varios.hpl]\r\n2025/04/05 21:32:53 -  Dados_Pesquisadores_Varios.hpl - Using run configuration [local]\r\n2025/04/05 21:32:53 -  Dados_Pesquisadores_Varios - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'\r\n2025/04/05 21:32:53 -  Dados_Pesquisadores_Varios - Execution started for pipeline [ Dados_Pesquisadores_Varios]\r\n2025/04/05 21:32:53 - Get file names.0 - Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)\r\n2025/04/05 21:32:53 - Get data from XML.0 - Finished processing (I=2, O=0, R=2, W=2, U=0, E=0)\r\n2025/04/05 21:32:54 - Select values.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)\r\n2025/04/05 21:32:54 - Insert / update.0 - Finished processing (I=2, O=0, R=2, W=2, U=0, E=0)\r\n2025/04/05 21:32:54 -  Dados_Pesquisadores_Varios - Pipeline duration : 0.127 seconds [  0.127\" ]\r\n2025/04/05 21:32:54 -  Dados_Pesquisadores_Varios - Execution finished on a local pipeline engine with run configuration 'local'\r\n2025/04/05 21:32:54 - lattes - Starting action [Dados_Producoes_Pesquisadores_Varios.hpl]\r\n2025/04/05 21:32:54 - Dados_Producoes_Pesquisadores_Varios.hpl - Using run configuration [local]\r\n2025/04/05 21:32:54 - Dados_Producoes_Pesquisadores_Varios - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'\r\n2025/04/05 21:32:54 - Dados_Producoes_Pesquisadores_Varios - Execution started for pipeline [Dados_Producoes_Pesquisadores_Varios]\r\n2025/04/05 21:32:54 - Get file names.0 - Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)\r\n2025/04/05 21:32:54 - Table input Pesquisadores.0 - Finished reading query, closing connection.\r\n2025/04/05 21:32:54 - Table input Pesquisadores.0 - Finished processing (I=2, O=0, R=0, W=2, U=0, E=0)\r\n2025/04/05 21:32:54 - Sort rows Pesquisadores.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)\r\n2025/04/05 21:32:54 - Get data from XML.0 - F",
+  "lastLogLineNr" : 177,
+  "metrics" : [ ],
+  "statusDescription" : "Finished",
+  "updateTime" : 1743899574621,
+  "childIds" : [ "8cb65120-9917-4327-845e-b7d668b18c9b", "ec5001e9-b4fd-4a08-be51-3ce092059233", "bbe3eb8a-8a13-4b9a-aaf6-bc13c73480d8", "19562de7-363d-4976-b554-7a0ed56abfd1" ],
+  "details" : { },
+  "failed" : false,
+  "executionEndDate" : 1743899574621,
+  "containerId" : null
+}

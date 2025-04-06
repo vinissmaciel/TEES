@@ -1,0 +1,129 @@
+{
+  "executionType" : "Pipeline",
+  "parentId" : null,
+  "id" : "a7b21029-33ec-4d3f-8aad-6373e762b8da",
+  "name" : "Dados_Producoes_Pesquisadores_Varios",
+  "copyNr" : null,
+  "loggingText" : "2025/04/05 21:29:26 - Dados_Producoes_Pesquisadores_Varios - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'\r\n2025/04/05 21:29:26 - Dados_Producoes_Pesquisadores_Varios - Execution started for pipeline [Dados_Producoes_Pesquisadores_Varios]\r\n2025/04/05 21:29:27 - Get file names.0 - Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)\r\n2025/04/05 21:29:27 - Table input Pesquisadores.0 - Finished reading query, closing connection.\r\n2025/04/05 21:29:27 - Table input Pesquisadores.0 - Finished processing (I=2, O=0, R=0, W=2, U=0, E=0)\r\n2025/04/05 21:29:27 - Sort rows Pesquisadores.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)\r\n2025/04/05 21:29:27 - Get data from XML.0 - Finished processing (I=118, O=0, R=2, W=118, U=0, E=0)\r\n2025/04/05 21:29:27 - Select Produções.0 - Finished processing (I=0, O=0, R=118, W=118, U=0, E=0)\r\n2025/04/05 21:29:27 - Sort rows Produções.0 - Finished processing (I=0, O=0, R=118, W=118, U=0, E=0)\r\n2025/04/05 21:29:27 - Insert / update.0 - ERROR: Error in transform, asking everyone to stop because of:\r\n2025/04/05 21:29:27 - Insert / update.0 - ERROR: org.apache.hop.core.exception.HopDatabaseException: \r\n2025/04/05 21:29:27 - Insert / update.0 - Error looking up row in database\r\n2025/04/05 21:29:27 - Insert / update.0 - ERROR: column \"nomeartigo\" does not exist\n  Position: 8\r\n2025/04/05 21:29:27 - Insert / update.0 - \r\n2025/04/05 21:29:27 - Insert / update.0 - \tat org.apache.hop.core.database.Database.getLookup(Database.java:2855)\r\n2025/04/05 21:29:27 - Insert / update.0 - \tat org.apache.hop.core.database.Database.getLookup(Database.java:2832)\r\n2025/04/05 21:29:27 - Insert / update.0 - \tat org.apache.hop.core.database.Database.getLookup(Database.java:2827)\r\n2025/04/05 21:29:27 - Insert / update.0 - \tat org.apache.hop.pipeline.transforms.insertupdate.InsertUpdate.lookupValues(InsertUpdate.java:86)\r\n2025/04/05 21:29:27 - Insert / update.0 - \tat org.apache.hop.pipeline.transforms.insertupdate.InsertUpdate",
+  "lastLogLineNr" : 127,
+  "metrics" : [ {
+    "componentName" : "Get file names",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 0,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 0,
+      "Written" : 2,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Get data from XML",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 2,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 118,
+      "Written" : 118,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Select Produções",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 118,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 0,
+      "Written" : 118,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Sort rows Produções",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 118,
+      "Buffers Output" : 43,
+      "Errors" : 0,
+      "Input" : 0,
+      "Written" : 118,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Table input Pesquisadores",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 0,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 2,
+      "Written" : 2,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Sort rows Pesquisadores",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 2,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 0,
+      "Written" : 2,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Merge join",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 76,
+      "Buffers Output" : 72,
+      "Errors" : 0,
+      "Input" : 0,
+      "Written" : 73,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 43
+    }
+  }, {
+    "componentName" : "Insert / update",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 1,
+      "Buffers Output" : 0,
+      "Errors" : 1,
+      "Input" : 0,
+      "Written" : 0,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 72
+    }
+  } ],
+  "statusDescription" : "Finished (with errors)",
+  "updateTime" : 1743899367257,
+  "childIds" : [ "e56fbf20-69d8-4dcf-a96a-32ef937dbb2c", "4d480a39-8316-48aa-b637-471749eadb97", "16cc951d-856f-4cba-a215-d91c7d960837", "f0cc2683-65a5-4008-a0f6-540685c7060e", "2a1333b8-2e6c-4712-b17c-604db9bf67c5", "5776fff3-c185-44ed-95bf-356900a99df5", "4f6ce70f-62be-46ec-aee8-0f53179f152a", "99258d8f-15a8-4bdf-9d5b-73a2e5fe4037" ],
+  "details" : { },
+  "failed" : true,
+  "executionEndDate" : 1743899367233,
+  "containerId" : "8a0ee47b-a0de-40e2-9104-acb0f64ddc3a"
+}

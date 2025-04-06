@@ -1,0 +1,472 @@
+2025/04/05 20:28:45 - Hop - Projects enabled
+2025/04/05 20:28:45 - Hop - Enabling project : 'default'
+Create widgets: no GUI elements found for parent: org.apache.hop.core.database.NoneDatabaseMeta, parent ID: DatabaseMeta-PluginSpecific-Options
+enableWidgets: no GUI elements found for class: org.apache.hop.core.database.NoneDatabaseMeta, parent ID: DatabaseMeta-PluginSpecific-Options
+getWidgetsContents: no GUI elements found for class: org.apache.hop.core.database.NoneDatabaseMeta, parent ID: DatabaseMeta-PluginSpecific-Options
+enableWidgets: no GUI elements found for class: org.apache.hop.core.database.NoneDatabaseMeta, parent ID: DatabaseMeta-PluginSpecific-Options
+getWidgetsContents: no GUI elements found for class: org.apache.hop.core.database.NoneDatabaseMeta, parent ID: DatabaseMeta-PluginSpecific-Options
+Create widgets: no GUI elements found for parent: org.apache.hop.core.database.NoneDatabaseMeta, parent ID: DatabaseMeta-PluginSpecific-Options
+enableWidgets: no GUI elements found for class: org.apache.hop.core.database.NoneDatabaseMeta, parent ID: DatabaseMeta-PluginSpecific-Options
+getWidgetsContents: no GUI elements found for class: org.apache.hop.core.database.NoneDatabaseMeta, parent ID: DatabaseMeta-PluginSpecific-Options
+enableWidgets: no GUI elements found for class: org.apache.hop.core.database.NoneDatabaseMeta, parent ID: DatabaseMeta-PluginSpecific-Options
+getWidgetsContents: no GUI elements found for class: org.apache.hop.core.database.NoneDatabaseMeta, parent ID: DatabaseMeta-PluginSpecific-Options
+Create widgets: no GUI elements found for parent: org.apache.hop.core.database.NoneDatabaseMeta, parent ID: DatabaseMeta-PluginSpecific-Options
+enableWidgets: no GUI elements found for class: org.apache.hop.core.database.NoneDatabaseMeta, parent ID: DatabaseMeta-PluginSpecific-Options
+getWidgetsContents: no GUI elements found for class: org.apache.hop.core.database.NoneDatabaseMeta, parent ID: DatabaseMeta-PluginSpecific-Options
+enableWidgets: no GUI elements found for class: org.apache.hop.core.database.NoneDatabaseMeta, parent ID: DatabaseMeta-PluginSpecific-Options
+getWidgetsContents: no GUI elements found for class: org.apache.hop.core.database.NoneDatabaseMeta, parent ID: DatabaseMeta-PluginSpecific-Options
+Create widgets: no GUI elements found for parent: org.apache.hop.core.database.NoneDatabaseMeta, parent ID: DatabaseMeta-PluginSpecific-Options
+enableWidgets: no GUI elements found for class: org.apache.hop.core.database.NoneDatabaseMeta, parent ID: DatabaseMeta-PluginSpecific-Options
+getWidgetsContents: no GUI elements found for class: org.apache.hop.core.database.NoneDatabaseMeta, parent ID: DatabaseMeta-PluginSpecific-Options
+enableWidgets: no GUI elements found for class: org.apache.hop.core.database.NoneDatabaseMeta, parent ID: DatabaseMeta-PluginSpecific-Options
+getWidgetsContents: no GUI elements found for class: org.apache.hop.core.database.NoneDatabaseMeta, parent ID: DatabaseMeta-PluginSpecific-Options
+2025/04/05 20:55:23 - Preview pipeline for Get data from XML - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/04/05 20:55:23 - Preview pipeline for Get data from XML - Execution started for pipeline [Preview pipeline for Get data from XML]
+2025/04/05 20:55:23 - Get data from XML.0 - Finished processing (I=1, O=0, R=0, W=1, U=0, E=0)
+2025/04/05 20:55:23 - dummy.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2025/04/05 20:55:23 - Preview pipeline for Get data from XML - Pipeline duration : 0.072 seconds [  0.072" ]
+2025/04/05 20:55:23 - Preview pipeline for Get data from XML - Execution finished on a local pipeline engine with run configuration 'local'
+2025/04/05 20:57:37 - Hop - Pipeline opened.
+2025/04/05 20:57:37 - Hop - Launching pipeline [Dados_Pesquisador]...
+2025/04/05 20:57:37 - Hop - Started the pipeline execution.
+2025/04/05 20:57:37 - Dados_Pesquisador - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/04/05 20:57:37 - Dados_Pesquisador - Execution started for pipeline [Dados_Pesquisador]
+2025/04/05 20:57:37 - Get data from XML.0 - Finished processing (I=1, O=0, R=0, W=1, U=0, E=0)
+2025/04/05 20:57:37 - Select values.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2025/04/05 20:57:37 - Dados_Pesquisador - Pipeline duration : 0.068 seconds [  0.068" ]
+2025/04/05 20:57:38 - Dados_Pesquisador - Execution finished on a local pipeline engine with run configuration 'local'
+2025/04/05 20:59:53 - Hop - Pipeline opened.
+2025/04/05 20:59:53 - Hop - Launching pipeline [Dados_Pesquisador]...
+2025/04/05 20:59:53 - Hop - Started the pipeline execution.
+2025/04/05 20:59:53 - Dados_Pesquisador - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/04/05 20:59:53 - Dados_Pesquisador - Execution started for pipeline [Dados_Pesquisador]
+2025/04/05 20:59:53 - Insert / update.0 - ERROR: Database connection is missing for transform [Insert / update]!
+2025/04/05 20:59:53 - Insert / update.0 - ERROR: Error initializing transform [Insert / update]
+2025/04/05 20:59:53 - Dados_Pesquisador - ERROR: Transform [Insert / update.0] failed to initialize!
+2025/04/05 20:59:53 - Hop - ERROR: Dados_Pesquisador: preparing pipeline execution failed
+2025/04/05 20:59:53 - Hop - ERROR: org.apache.hop.core.exception.HopException: 
+2025/04/05 20:59:53 - Hop - We failed to initialize at least one transform.  Execution can not begin!
+2025/04/05 20:59:53 - Hop - 
+2025/04/05 20:59:53 - Hop - 
+2025/04/05 20:59:53 - Hop - 	at org.apache.hop.pipeline.Pipeline.prepareExecution(Pipeline.java:1087)
+2025/04/05 20:59:53 - Hop - 	at org.apache.hop.pipeline.engines.local.LocalPipelineEngine.prepareExecution(LocalPipelineEngine.java:231)
+2025/04/05 20:59:53 - Hop - 	at org.apache.hop.ui.hopgui.file.pipeline.HopGuiPipelineGraph.lambda$preparePipeline$15(HopGuiPipelineGraph.java:4532)
+2025/04/05 20:59:53 - Hop - 	at java.base/java.lang.Thread.run(Thread.java:1583)
+Create widgets: no GUI elements found for parent: org.apache.hop.core.database.NoneDatabaseMeta, parent ID: DatabaseMeta-PluginSpecific-Options
+enableWidgets: no GUI elements found for class: org.apache.hop.core.database.NoneDatabaseMeta, parent ID: DatabaseMeta-PluginSpecific-Options
+getWidgetsContents: no GUI elements found for class: org.apache.hop.core.database.NoneDatabaseMeta, parent ID: DatabaseMeta-PluginSpecific-Options
+enableWidgets: no GUI elements found for class: org.apache.hop.core.database.NoneDatabaseMeta, parent ID: DatabaseMeta-PluginSpecific-Options
+Create widgets: no GUI elements found for parent: org.apache.hop.core.database.NoneDatabaseMeta, parent ID: DatabaseMeta-PluginSpecific-Options
+enableWidgets: no GUI elements found for class: org.apache.hop.core.database.NoneDatabaseMeta, parent ID: DatabaseMeta-PluginSpecific-Options
+getWidgetsContents: no GUI elements found for class: org.apache.hop.core.database.NoneDatabaseMeta, parent ID: DatabaseMeta-PluginSpecific-Options
+enableWidgets: no GUI elements found for class: org.apache.hop.core.database.NoneDatabaseMeta, parent ID: DatabaseMeta-PluginSpecific-Options
+Create widgets: no GUI elements found for parent: org.apache.hop.core.database.NoneDatabaseMeta, parent ID: DatabaseMeta-PluginSpecific-Options
+enableWidgets: no GUI elements found for class: org.apache.hop.core.database.NoneDatabaseMeta, parent ID: DatabaseMeta-PluginSpecific-Options
+getWidgetsContents: no GUI elements found for class: org.apache.hop.core.database.NoneDatabaseMeta, parent ID: DatabaseMeta-PluginSpecific-Options
+enableWidgets: no GUI elements found for class: org.apache.hop.core.database.NoneDatabaseMeta, parent ID: DatabaseMeta-PluginSpecific-Options
+getWidgetsContents: no GUI elements found for class: org.apache.hop.core.database.NoneDatabaseMeta, parent ID: DatabaseMeta-PluginSpecific-Options
+Create widgets: no GUI elements found for parent: org.apache.hop.core.database.NoneDatabaseMeta, parent ID: DatabaseMeta-PluginSpecific-Options
+enableWidgets: no GUI elements found for class: org.apache.hop.core.database.NoneDatabaseMeta, parent ID: DatabaseMeta-PluginSpecific-Options
+getWidgetsContents: no GUI elements found for class: org.apache.hop.core.database.NoneDatabaseMeta, parent ID: DatabaseMeta-PluginSpecific-Options
+enableWidgets: no GUI elements found for class: org.apache.hop.core.database.NoneDatabaseMeta, parent ID: DatabaseMeta-PluginSpecific-Options
+getWidgetsContents: no GUI elements found for class: org.apache.hop.core.database.NoneDatabaseMeta, parent ID: DatabaseMeta-PluginSpecific-Options
+2025/04/05 21:03:39 - Hop - Pipeline opened.
+2025/04/05 21:03:39 - Hop - Launching pipeline [Dados_Pesquisador]...
+2025/04/05 21:03:39 - Hop - Started the pipeline execution.
+2025/04/05 21:03:39 - Dados_Pesquisador - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/04/05 21:03:39 - Dados_Pesquisador - Execution started for pipeline [Dados_Pesquisador]
+2025/04/05 21:03:39 - Get data from XML.0 - Finished processing (I=1, O=0, R=0, W=1, U=0, E=0)
+2025/04/05 21:03:39 - Select values.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2025/04/05 21:03:39 - Insert / update.0 - Finished processing (I=1, O=1, R=1, W=1, U=0, E=0)
+2025/04/05 21:03:39 - Dados_Pesquisador - Pipeline duration : 0.075 seconds [  0.075" ]
+2025/04/05 21:03:39 - Dados_Pesquisador - Execution finished on a local pipeline engine with run configuration 'local'
+2025/04/05 21:07:20 - Preview pipeline for Get file names - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/04/05 21:07:20 - Preview pipeline for Get file names - Execution started for pipeline [Preview pipeline for Get file names]
+2025/04/05 21:07:20 - Get file names.0 - ERROR: No files found!.
+2025/04/05 21:07:20 - Preview pipeline for Get file names - Pipeline duration : 0.033 seconds [  0.033" ]
+2025/04/05 21:07:20 - Preview pipeline for Get file names - Execution finished on a local pipeline engine with run configuration 'local'
+2025/04/05 21:07:27 - Preview pipeline for Get file names - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/04/05 21:07:27 - Preview pipeline for Get file names - Execution started for pipeline [Preview pipeline for Get file names]
+2025/04/05 21:07:27 - Get file names.0 - Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)
+2025/04/05 21:07:27 - dummy.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)
+2025/04/05 21:07:27 - Preview pipeline for Get file names - Pipeline duration : 0.037 seconds [  0.037" ]
+2025/04/05 21:07:27 - Preview pipeline for Get file names - Execution finished on a local pipeline engine with run configuration 'local'
+2025/04/05 21:08:23 - Hop - Pipeline opened.
+2025/04/05 21:08:23 - Hop - Launching pipeline [ Dados_Pesquisadores_Varios]...
+2025/04/05 21:08:23 - Hop - Started the pipeline execution.
+2025/04/05 21:08:23 -  Dados_Pesquisadores_Varios - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/04/05 21:08:23 -  Dados_Pesquisadores_Varios - Execution started for pipeline [ Dados_Pesquisadores_Varios]
+2025/04/05 21:08:23 - Get file names.0 - Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)
+2025/04/05 21:08:23 - Get data from XML.0 - Finished processing (I=2, O=0, R=2, W=2, U=0, E=0)
+2025/04/05 21:08:23 - Select values.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)
+2025/04/05 21:08:23 - Insert / update.0 - Finished processing (I=2, O=1, R=2, W=2, U=0, E=0)
+2025/04/05 21:08:23 -  Dados_Pesquisadores_Varios - Pipeline duration : 0.134 seconds [  0.134" ]
+2025/04/05 21:08:23 -  Dados_Pesquisadores_Varios - Execution finished on a local pipeline engine with run configuration 'local'
+2025/04/05 21:21:26 - Hop - Pipeline opened.
+2025/04/05 21:21:26 - Hop - Launching pipeline [Dados_Producoes_Pesquisadores_Varios]...
+2025/04/05 21:21:26 - Hop - Started the pipeline execution.
+2025/04/05 21:21:26 - Dados_Producoes_Pesquisadores_Varios - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/04/05 21:21:26 - Dados_Producoes_Pesquisadores_Varios - Execution started for pipeline [Dados_Producoes_Pesquisadores_Varios]
+2025/04/05 21:21:26 - Get file names.0 - Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)
+2025/04/05 21:21:26 - Get data from XML.0 - Finished processing (I=118, O=0, R=2, W=118, U=0, E=0)
+2025/04/05 21:21:26 - Select Produções.0 - Finished processing (I=0, O=0, R=118, W=118, U=0, E=0)
+2025/04/05 21:21:26 - Dados_Producoes_Pesquisadores_Varios - Pipeline duration : 0.148 seconds [  0.148" ]
+2025/04/05 21:21:26 - Dados_Producoes_Pesquisadores_Varios - Execution finished on a local pipeline engine with run configuration 'local'
+2025/04/05 21:24:34 - org.apache.hop.pipeline.transforms.sort.SortRowsMeta@34883fa2 - ERROR: Unable to get fields from previous transforms because of an error
+2025/04/05 21:25:34 - org.apache.hop.pipeline.transforms.mergejoin.MergeJoinMeta@5c496ae6 - ERROR: Unable to get fields from previous transforms because of an error
+2025/04/05 21:25:36 - org.apache.hop.pipeline.transforms.mergejoin.MergeJoinMeta@5c496ae6 - ERROR: Unable to get fields from previous transforms because of an error
+2025/04/05 21:26:10 - org.apache.hop.pipeline.transforms.mergejoin.MergeJoinMeta@5c496ae6 - ERROR: Unable to get fields from previous transforms because of an error
+2025/04/05 21:26:10 - org.apache.hop.pipeline.transforms.mergejoin.MergeJoinMeta@5c496ae6 - ERROR: Unable to get fields from previous transforms because of an error
+2025/04/05 21:26:10 - org.apache.hop.pipeline.transforms.mergejoin.MergeJoinMeta@5c496ae6 - ERROR: Unable to get fields from previous transforms because of an error
+2025/04/05 21:26:31 - org.apache.hop.pipeline.transforms.mergejoin.MergeJoinMeta@5c496ae6 - ERROR: Unable to get fields from previous transforms because of an error
+2025/04/05 21:26:31 - org.apache.hop.pipeline.transforms.mergejoin.MergeJoinMeta@5c496ae6 - ERROR: Unable to get fields from previous transforms because of an error
+2025/04/05 21:26:31 - org.apache.hop.pipeline.transforms.mergejoin.MergeJoinMeta@5c496ae6 - ERROR: Unable to get fields from previous transforms because of an error
+2025/04/05 21:26:56 - org.apache.hop.pipeline.transforms.sort.SortRowsMeta@34883fa2 - ERROR: Unable to get fields from previous transforms because of an error
+2025/04/05 21:27:08 - org.apache.hop.pipeline.transforms.mergejoin.MergeJoinMeta@5c496ae6 - ERROR: Unable to get fields from previous transforms because of an error
+2025/04/05 21:27:08 - org.apache.hop.pipeline.transforms.mergejoin.MergeJoinMeta@5c496ae6 - ERROR: Unable to get fields from previous transforms because of an error
+2025/04/05 21:27:08 - org.apache.hop.pipeline.transforms.mergejoin.MergeJoinMeta@5c496ae6 - ERROR: Unable to get fields from previous transforms because of an error
+2025/04/05 21:27:15 - org.apache.hop.pipeline.transforms.insertupdate.InsertUpdateMeta@4abfdad1 - ERROR: Unable to get fields from previous transforms because of an error
+2025/04/05 21:28:42 - Hop - Pipeline opened.
+2025/04/05 21:28:42 - Hop - Launching pipeline [Dados_Producoes_Pesquisadores_Varios]...
+2025/04/05 21:28:42 - Hop - Started the pipeline execution.
+2025/04/05 21:28:42 - Dados_Producoes_Pesquisadores_Varios - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/04/05 21:28:42 - Dados_Producoes_Pesquisadores_Varios - Execution started for pipeline [Dados_Producoes_Pesquisadores_Varios]
+2025/04/05 21:28:42 - Hop - ERROR: Dados_Producoes_Pesquisadores_Varios: preparing pipeline execution failed
+2025/04/05 21:28:42 - Hop - ERROR: org.apache.hop.core.exception.HopTransformException: 
+2025/04/05 21:28:42 - Hop - Unable to get queryfields for SQL: 
+2025/04/05 21:28:42 - Hop - SELECT 
+2025/04/05 21:28:42 - Hop - 	pesquisadores_id,
+2025/04/05 21:28:42 - Hop - 	lattes_id,
+2025/04/05 21:28:42 - Hop - 	nonme
+2025/04/05 21:28:42 - Hop - FROM "public".pesquisadores
+2025/04/05 21:28:42 - Hop - 
+2025/04/05 21:28:42 - Hop - Couldn't get field info from [SELECT 
+2025/04/05 21:28:42 - Hop - 	pesquisadores_id,
+2025/04/05 21:28:42 - Hop - 	lattes_id,
+2025/04/05 21:28:42 - Hop - 	nonme
+2025/04/05 21:28:42 - Hop - FROM "public".pesquisadores]
+2025/04/05 21:28:42 - Hop - 
+2025/04/05 21:28:42 - Hop - ERROR: column "nonme" does not exist
+  Hint: Perhaps you meant to reference the column "pesquisadores.nome".
+  Position: 44
+2025/04/05 21:28:42 - Hop - 
+2025/04/05 21:28:42 - Hop - 
+2025/04/05 21:28:42 - Hop - 	at org.apache.hop.pipeline.transforms.tableinput.TableInputMeta.getFields(TableInputMeta.java:241)
+2025/04/05 21:28:42 - Hop - 	at org.apache.hop.pipeline.transform.BaseTransformMeta.getFields(BaseTransformMeta.java:328)
+2025/04/05 21:28:42 - Hop - 	at org.apache.hop.pipeline.PipelineMeta.getThisTransformFields(PipelineMeta.java:1413)
+2025/04/05 21:28:42 - Hop - 	at org.apache.hop.pipeline.PipelineMeta.getTransformFields(PipelineMeta.java:1221)
+2025/04/05 21:28:42 - Hop - 	at org.apache.hop.pipeline.PipelineMeta.getTransformFields(PipelineMeta.java:1115)
+2025/04/05 21:28:42 - Hop - 	at org.apache.hop.pipeline.PipelineMeta.getTransformFields(PipelineMeta.java:1081)
+2025/04/05 21:28:42 - Hop - 	at org.apache.hop.pipeline.engines.local.LocalPipelineEngine.addTransformExecutionSamplers(LocalPipelineEngine.java:322)
+2025/04/05 21:28:42 - Hop - 	at org.apache.hop.pipeline.engines.local.LocalPipelineEngine.prepareExecution(LocalPipelineEngine.java:241)
+2025/04/05 21:28:42 - Hop - 	at org.apache.hop.ui.hopgui.file.pipeline.HopGuiPipelineGraph.lambda$preparePipeline$15(HopGuiPipelineGraph.java:4532)
+2025/04/05 21:28:42 - Hop - 	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025/04/05 21:28:42 - Hop - Caused by: org.apache.hop.core.exception.HopDatabaseException: 
+2025/04/05 21:28:42 - Hop - Couldn't get field info from [SELECT 
+2025/04/05 21:28:42 - Hop - 	pesquisadores_id,
+2025/04/05 21:28:42 - Hop - 	lattes_id,
+2025/04/05 21:28:42 - Hop - 	nonme
+2025/04/05 21:28:42 - Hop - FROM "public".pesquisadores]
+2025/04/05 21:28:42 - Hop - 
+2025/04/05 21:28:42 - Hop - ERROR: column "nonme" does not exist
+  Hint: Perhaps you meant to reference the column "pesquisadores.nome".
+  Position: 44
+2025/04/05 21:28:42 - Hop - 
+2025/04/05 21:28:42 - Hop - 	at org.apache.hop.core.database.Database.getQueryFieldsFallback(Database.java:2272)
+2025/04/05 21:28:42 - Hop - 	at org.apache.hop.core.database.Database.getQueryFields(Database.java:2099)
+2025/04/05 21:28:42 - Hop - 	at org.apache.hop.pipeline.transforms.tableinput.TableInputMeta.getFields(TableInputMeta.java:230)
+2025/04/05 21:28:42 - Hop - 	... 9 more
+2025/04/05 21:28:42 - Hop - Caused by: org.postgresql.util.PSQLException: ERROR: column "nonme" does not exist
+  Hint: Perhaps you meant to reference the column "pesquisadores.nome".
+  Position: 44
+2025/04/05 21:28:42 - Hop - 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2733)
+2025/04/05 21:28:42 - Hop - 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2420)
+2025/04/05 21:28:42 - Hop - 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:372)
+2025/04/05 21:28:42 - Hop - 	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:517)
+2025/04/05 21:28:42 - Hop - 	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:434)
+2025/04/05 21:28:42 - Hop - 	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+2025/04/05 21:28:42 - Hop - 	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:137)
+2025/04/05 21:28:42 - Hop - 	at org.apache.hop.core.database.Database.getQueryFieldsFallback(Database.java:2249)
+2025/04/05 21:28:42 - Hop - 	... 11 more
+2025/04/05 21:28:42 - Get file names.0 - Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)
+org.apache.hop.core.exception.HopDatabaseException: 
+An error occurred executing SQL: 
+SELECT 
+	pesquisadores_id,
+	lattes_id,
+	nonme
+FROM "public".pesquisadores
+ERROR: column "nonme" does not exist
+  Hint: Perhaps you meant to reference the column "pesquisadores.nome".
+  Position: 44
+
+	at org.apache.hop.core.database.Database.openQuery(Database.java:1596)
+	at org.apache.hop.pipeline.transforms.tableinput.TableInput.doQuery(TableInput.java:231)
+	at org.apache.hop.pipeline.transforms.tableinput.TableInput.processRow(TableInput.java:137)
+	at org.apache.hop.pipeline.transform.RunThread.run(RunThread.java:54)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.postgresql.util.PSQLException: ERROR: column "nonme" does not exist
+  Hint: Perhaps you meant to reference the column "pesquisadores.nome".
+  Position: 44
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2733)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2420)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:372)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:517)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:434)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:356)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:341)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:317)
+	at org.postgresql.jdbc.PgStatement.executeQuery(PgStatement.java:266)
+	at org.apache.hop.core.database.Database.openQuery(Database.java:1585)
+	... 4 more
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - ERROR: Unexpected error
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - ERROR: org.apache.hop.core.exception.HopDatabaseException: 
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - An error occurred executing SQL: 
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - SELECT 
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - 	pesquisadores_id,
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - 	lattes_id,
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - 	nonme
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - FROM "public".pesquisadores
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - ERROR: column "nonme" does not exist
+  Hint: Perhaps you meant to reference the column "pesquisadores.nome".
+  Position: 44
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - 
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - 	at org.apache.hop.core.database.Database.openQuery(Database.java:1596)
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - 	at org.apache.hop.pipeline.transforms.tableinput.TableInput.doQuery(TableInput.java:231)
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - 	at org.apache.hop.pipeline.transforms.tableinput.TableInput.processRow(TableInput.java:137)
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - 	at org.apache.hop.pipeline.transform.RunThread.run(RunThread.java:54)
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - 	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - Caused by: org.postgresql.util.PSQLException: ERROR: column "nonme" does not exist
+  Hint: Perhaps you meant to reference the column "pesquisadores.nome".
+  Position: 44
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2733)
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2420)
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:372)
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - 	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:517)
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - 	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:434)
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - 	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:356)
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - 	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:341)
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - 	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:317)
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - 	at org.postgresql.jdbc.PgStatement.executeQuery(PgStatement.java:266)
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - 	at org.apache.hop.core.database.Database.openQuery(Database.java:1585)
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - 	... 4 more
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - Finished reading query, closing connection.
+2025/04/05 21:28:42 - Get data from XML.0 - Finished processing (I=1, O=0, R=1, W=0, U=0, E=0)
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - Finished processing (I=0, O=0, R=0, W=0, U=0, E=1)
+2025/04/05 21:28:42 - Dados_Producoes_Pesquisadores_Varios - Pipeline detected one or more transforms with errors.
+2025/04/05 21:28:42 - Dados_Producoes_Pesquisadores_Varios - Pipeline is killing the other transforms!
+org.apache.hop.core.exception.HopTransformException: 
+Unable to get queryfields for SQL: 
+SELECT 
+	pesquisadores_id,
+	lattes_id,
+	nonme
+FROM "public".pesquisadores
+
+Couldn't get field info from [SELECT 
+	pesquisadores_id,
+	lattes_id,
+	nonme
+FROM "public".pesquisadores]
+
+ERROR: column "nonme" does not exist
+  Hint: Perhaps you meant to reference the column "pesquisadores.nome".
+  Position: 41
+
+
+	at org.apache.hop.pipeline.transforms.tableinput.TableInputMeta.getFields(TableInputMeta.java:241)
+	at org.apache.hop.pipeline.transform.BaseTransformMeta.getFields(BaseTransformMeta.java:328)
+	at org.apache.hop.pipeline.PipelineMeta.getThisTransformFields(PipelineMeta.java:1413)
+	at org.apache.hop.pipeline.PipelineMeta.getTransformFields(PipelineMeta.java:1221)
+	at org.apache.hop.pipeline.PipelineMeta.getTransformFields(PipelineMeta.java:1198)
+	at org.apache.hop.pipeline.PipelineMeta.getTransformFields(PipelineMeta.java:1115)
+	at org.apache.hop.pipeline.PipelineMeta.getTransformFields(PipelineMeta.java:1081)
+	at org.apache.hop.pipeline.PipelineMeta.getTransformFields(PipelineMeta.java:1066)
+	at org.apache.hop.pipeline.transforms.mergejoin.MergeJoin.processRow(MergeJoin.java:97)
+	at org.apache.hop.pipeline.transform.RunThread.run(RunThread.java:54)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.apache.hop.core.exception.HopDatabaseException: 
+Couldn't get field info from [SELECT 
+	pesquisadores_id,
+	lattes_id,
+	nonme
+FROM "public".pesquisadores]
+
+ERROR: column "nonme" does not exist
+  Hint: Perhaps you meant to reference the column "pesquisadores.nome".
+  Position: 41
+
+	at org.apache.hop.core.database.Database.getQueryFieldsFallback(Database.java:2272)
+	at org.apache.hop.core.database.Database.getQueryFields(Database.java:2099)
+	at org.apache.hop.pipeline.transforms.tableinput.TableInputMeta.getFields(TableInputMeta.java:230)
+	... 10 more
+Caused by: org.postgresql.util.PSQLException: ERROR: column "nonme" does not exist
+  Hint: Perhaps you meant to reference the column "pesquisadores.nome".
+  Position: 41
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2733)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2420)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:372)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:517)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:434)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:137)
+	at org.apache.hop.core.database.Database.getQueryFieldsFallback(Database.java:2249)
+	... 12 more
+2025/04/05 21:28:42 - Merge join.0 - ERROR: Unexpected error
+2025/04/05 21:28:42 - Merge join.0 - ERROR: org.apache.hop.core.exception.HopTransformException: 
+2025/04/05 21:28:42 - Merge join.0 - Unable to get queryfields for SQL: 
+2025/04/05 21:28:42 - Merge join.0 - SELECT 
+	pesquisadores_id,
+	lattes_id,
+	nonme
+FROM "public".pesquisadores
+2025/04/05 21:28:42 - Merge join.0 - 
+2025/04/05 21:28:42 - Merge join.0 - Couldn't get field info from [SELECT 
+	pesquisadores_id,
+	lattes_id,
+	nonme
+FROM "public".pesquisadores]
+2025/04/05 21:28:42 - Merge join.0 - 
+2025/04/05 21:28:42 - Merge join.0 - ERROR: column "nonme" does not exist
+  Hint: Perhaps you meant to reference the column "pesquisadores.nome".
+  Position: 41
+2025/04/05 21:28:42 - Merge join.0 - 
+2025/04/05 21:28:42 - Merge join.0 - 
+2025/04/05 21:28:42 - Merge join.0 - 	at org.apache.hop.pipeline.transforms.tableinput.TableInputMeta.getFields(TableInputMeta.java:241)
+2025/04/05 21:28:42 - Merge join.0 - 	at org.apache.hop.pipeline.transform.BaseTransformMeta.getFields(BaseTransformMeta.java:328)
+2025/04/05 21:28:42 - Merge join.0 - 	at org.apache.hop.pipeline.PipelineMeta.getThisTransformFields(PipelineMeta.java:1413)
+2025/04/05 21:28:42 - Merge join.0 - 	at org.apache.hop.pipeline.PipelineMeta.getTransformFields(PipelineMeta.java:1221)
+2025/04/05 21:28:42 - Merge join.0 - 	at org.apache.hop.pipeline.PipelineMeta.getTransformFields(PipelineMeta.java:1198)
+2025/04/05 21:28:42 - Merge join.0 - 	at org.apache.hop.pipeline.PipelineMeta.getTransformFields(PipelineMeta.java:1115)
+2025/04/05 21:28:42 - Merge join.0 - 	at org.apache.hop.pipeline.PipelineMeta.getTransformFields(PipelineMeta.java:1081)
+2025/04/05 21:28:42 - Merge join.0 - 	at org.apache.hop.pipeline.PipelineMeta.getTransformFields(PipelineMeta.java:1066)
+2025/04/05 21:28:42 - Merge join.0 - 	at org.apache.hop.pipeline.transforms.mergejoin.MergeJoin.processRow(MergeJoin.java:97)
+2025/04/05 21:28:42 - Merge join.0 - 	at org.apache.hop.pipeline.transform.RunThread.run(RunThread.java:54)
+2025/04/05 21:28:42 - Merge join.0 - 	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025/04/05 21:28:42 - Merge join.0 - Caused by: org.apache.hop.core.exception.HopDatabaseException: 
+2025/04/05 21:28:42 - Merge join.0 - Couldn't get field info from [SELECT 
+	pesquisadores_id,
+	lattes_id,
+	nonme
+FROM "public".pesquisadores]
+2025/04/05 21:28:42 - Merge join.0 - 
+2025/04/05 21:28:42 - Merge join.0 - ERROR: column "nonme" does not exist
+  Hint: Perhaps you meant to reference the column "pesquisadores.nome".
+  Position: 41
+2025/04/05 21:28:42 - Merge join.0 - 
+2025/04/05 21:28:42 - Merge join.0 - 	at org.apache.hop.core.database.Database.getQueryFieldsFallback(Database.java:2272)
+2025/04/05 21:28:42 - Merge join.0 - 	at org.apache.hop.core.database.Database.getQueryFields(Database.java:2099)
+2025/04/05 21:28:42 - Merge join.0 - 	at org.apache.hop.pipeline.transforms.tableinput.TableInputMeta.getFields(TableInputMeta.java:230)
+2025/04/05 21:28:42 - Merge join.0 - 	... 10 more
+2025/04/05 21:28:42 - Merge join.0 - Caused by: org.postgresql.util.PSQLException: ERROR: column "nonme" does not exist
+  Hint: Perhaps you meant to reference the column "pesquisadores.nome".
+  Position: 41
+2025/04/05 21:28:42 - Merge join.0 - 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2733)
+2025/04/05 21:28:42 - Merge join.0 - 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2420)
+2025/04/05 21:28:42 - Merge join.0 - 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:372)
+2025/04/05 21:28:42 - Merge join.0 - 	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:517)
+2025/04/05 21:28:42 - Merge join.0 - 	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:434)
+2025/04/05 21:28:42 - Merge join.0 - 	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+2025/04/05 21:28:42 - Merge join.0 - 	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:137)
+2025/04/05 21:28:42 - Merge join.0 - 	at org.apache.hop.core.database.Database.getQueryFieldsFallback(Database.java:2249)
+2025/04/05 21:28:42 - Merge join.0 - 	... 12 more
+2025/04/05 21:28:42 - Merge join.0 - Finished processing (I=0, O=0, R=0, W=0, U=0, E=1)
+2025/04/05 21:28:42 - Dados_Producoes_Pesquisadores_Varios - Pipeline duration : 0.189 seconds [  0.189" ]
+2025/04/05 21:28:42 - Dados_Producoes_Pesquisadores_Varios - Execution finished on a local pipeline engine with run configuration 'local'
+2025/04/05 21:28:42 - Dados_Producoes_Pesquisadores_Varios - Pipeline detected one or more transforms with errors.
+2025/04/05 21:28:42 - Dados_Producoes_Pesquisadores_Varios - Pipeline is killing the other transforms!
+2025/04/05 21:28:49 - org.apache.hop.pipeline.transforms.mergejoin.MergeJoinMeta@61e4cf9b - ERROR: Unable to get fields from previous transforms because of an error
+2025/04/05 21:28:49 - org.apache.hop.pipeline.transforms.mergejoin.MergeJoinMeta@61e4cf9b - ERROR: Unable to get fields from previous transforms because of an error
+2025/04/05 21:28:49 - org.apache.hop.pipeline.transforms.mergejoin.MergeJoinMeta@61e4cf9b - ERROR: Unable to get fields from previous transforms because of an error
+2025/04/05 21:29:26 - Hop - Pipeline opened.
+2025/04/05 21:29:26 - Hop - Launching pipeline [Dados_Producoes_Pesquisadores_Varios]...
+2025/04/05 21:29:26 - Hop - Started the pipeline execution.
+2025/04/05 21:29:26 - Dados_Producoes_Pesquisadores_Varios - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/04/05 21:29:26 - Dados_Producoes_Pesquisadores_Varios - Execution started for pipeline [Dados_Producoes_Pesquisadores_Varios]
+2025/04/05 21:29:27 - Get file names.0 - Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)
+2025/04/05 21:29:27 - Table input Pesquisadores.0 - Finished reading query, closing connection.
+2025/04/05 21:29:27 - Table input Pesquisadores.0 - Finished processing (I=2, O=0, R=0, W=2, U=0, E=0)
+2025/04/05 21:29:27 - Sort rows Pesquisadores.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)
+2025/04/05 21:29:27 - Get data from XML.0 - Finished processing (I=118, O=0, R=2, W=118, U=0, E=0)
+2025/04/05 21:29:27 - Select Produções.0 - Finished processing (I=0, O=0, R=118, W=118, U=0, E=0)
+2025/04/05 21:29:27 - Sort rows Produções.0 - Finished processing (I=0, O=0, R=118, W=118, U=0, E=0)
+2025/04/05 21:29:27 - Insert / update.0 - ERROR: Error in transform, asking everyone to stop because of:
+2025/04/05 21:29:27 - Insert / update.0 - ERROR: org.apache.hop.core.exception.HopDatabaseException: 
+2025/04/05 21:29:27 - Insert / update.0 - Error looking up row in database
+2025/04/05 21:29:27 - Insert / update.0 - ERROR: column "nomeartigo" does not exist
+  Position: 8
+2025/04/05 21:29:27 - Insert / update.0 - 
+2025/04/05 21:29:27 - Insert / update.0 - 	at org.apache.hop.core.database.Database.getLookup(Database.java:2855)
+2025/04/05 21:29:27 - Insert / update.0 - 	at org.apache.hop.core.database.Database.getLookup(Database.java:2832)
+2025/04/05 21:29:27 - Insert / update.0 - 	at org.apache.hop.core.database.Database.getLookup(Database.java:2827)
+2025/04/05 21:29:27 - Insert / update.0 - 	at org.apache.hop.pipeline.transforms.insertupdate.InsertUpdate.lookupValues(InsertUpdate.java:86)
+2025/04/05 21:29:27 - Insert / update.0 - 	at org.apache.hop.pipeline.transforms.insertupdate.InsertUpdate.processRow(InsertUpdate.java:322)
+2025/04/05 21:29:27 - Insert / update.0 - 	at org.apache.hop.pipeline.transform.RunThread.run(RunThread.java:54)
+2025/04/05 21:29:27 - Insert / update.0 - 	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025/04/05 21:29:27 - Insert / update.0 - Caused by: org.postgresql.util.PSQLException: ERROR: column "nomeartigo" does not exist
+  Position: 8
+2025/04/05 21:29:27 - Insert / update.0 - 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2733)
+2025/04/05 21:29:27 - Insert / update.0 - 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2420)
+2025/04/05 21:29:27 - Insert / update.0 - 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:372)
+2025/04/05 21:29:27 - Insert / update.0 - 	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:517)
+2025/04/05 21:29:27 - Insert / update.0 - 	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:434)
+2025/04/05 21:29:27 - Insert / update.0 - 	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+2025/04/05 21:29:27 - Insert / update.0 - 	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:137)
+2025/04/05 21:29:27 - Insert / update.0 - 	at org.apache.hop.core.database.Database.getLookup(Database.java:2841)
+2025/04/05 21:29:27 - Insert / update.0 - 	... 6 more
+2025/04/05 21:29:27 - Insert / update.0 - Finished processing (I=0, O=0, R=1, W=0, U=0, E=1)
+2025/04/05 21:29:27 - Dados_Producoes_Pesquisadores_Varios - Pipeline detected one or more transforms with errors.
+2025/04/05 21:29:27 - Dados_Producoes_Pesquisadores_Varios - Pipeline is killing the other transforms!
+2025/04/05 21:29:27 - Merge join.0 - Finished processing (I=0, O=0, R=76, W=73, U=0, E=0)
+2025/04/05 21:29:27 - Dados_Producoes_Pesquisadores_Varios - Pipeline duration : 0.296 seconds [  0.296" ]
+2025/04/05 21:29:27 - Dados_Producoes_Pesquisadores_Varios - Execution finished on a local pipeline engine with run configuration 'local'
+2025/04/05 21:30:00 - Hop - Pipeline opened.
+2025/04/05 21:30:00 - Hop - Launching pipeline [Dados_Producoes_Pesquisadores_Varios]...
+2025/04/05 21:30:00 - Hop - Started the pipeline execution.
+2025/04/05 21:30:00 - Dados_Producoes_Pesquisadores_Varios - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/04/05 21:30:00 - Dados_Producoes_Pesquisadores_Varios - Execution started for pipeline [Dados_Producoes_Pesquisadores_Varios]
+2025/04/05 21:30:00 - Get file names.0 - Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)
+2025/04/05 21:30:00 - Table input Pesquisadores.0 - Finished reading query, closing connection.
+2025/04/05 21:30:00 - Table input Pesquisadores.0 - Finished processing (I=2, O=0, R=0, W=2, U=0, E=0)
+2025/04/05 21:30:00 - Sort rows Pesquisadores.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)
+2025/04/05 21:30:00 - Get data from XML.0 - Finished processing (I=118, O=0, R=2, W=118, U=0, E=0)
+2025/04/05 21:30:00 - Select Produções.0 - Finished processing (I=0, O=0, R=118, W=118, U=0, E=0)
+2025/04/05 21:30:00 - Sort rows Produções.0 - Finished processing (I=0, O=0, R=118, W=118, U=0, E=0)
+2025/04/05 21:30:01 - Merge join.0 - Finished processing (I=0, O=0, R=120, W=118, U=0, E=0)
+2025/04/05 21:30:01 - Insert / update.0 - Finished processing (I=118, O=50, R=118, W=118, U=68, E=0)
+2025/04/05 21:30:01 - Dados_Producoes_Pesquisadores_Varios - Pipeline duration : 0.615 seconds [  0.615" ]
+2025/04/05 21:30:01 - Dados_Producoes_Pesquisadores_Varios - Execution finished on a local pipeline engine with run configuration 'local'
+2025/04/05 21:32:53 - Hop - Starting workflow
+2025/04/05 21:32:53 - lattes - Start of workflow execution
+2025/04/05 21:32:53 - lattes - Starting action [ Dados_Pesquisadores_Varios.hpl]
+2025/04/05 21:32:53 -  Dados_Pesquisadores_Varios.hpl - Using run configuration [local]
+2025/04/05 21:32:53 -  Dados_Pesquisadores_Varios - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/04/05 21:32:53 -  Dados_Pesquisadores_Varios - Execution started for pipeline [ Dados_Pesquisadores_Varios]
+2025/04/05 21:32:53 - Get file names.0 - Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)
+2025/04/05 21:32:53 - Get data from XML.0 - Finished processing (I=2, O=0, R=2, W=2, U=0, E=0)
+2025/04/05 21:32:54 - Select values.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)
+2025/04/05 21:32:54 - Insert / update.0 - Finished processing (I=2, O=0, R=2, W=2, U=0, E=0)
+2025/04/05 21:32:54 -  Dados_Pesquisadores_Varios - Pipeline duration : 0.127 seconds [  0.127" ]
+2025/04/05 21:32:54 -  Dados_Pesquisadores_Varios - Execution finished on a local pipeline engine with run configuration 'local'
+2025/04/05 21:32:54 - lattes - Starting action [Dados_Producoes_Pesquisadores_Varios.hpl]
+2025/04/05 21:32:54 - Dados_Producoes_Pesquisadores_Varios.hpl - Using run configuration [local]
+2025/04/05 21:32:54 - Dados_Producoes_Pesquisadores_Varios - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/04/05 21:32:54 - Dados_Producoes_Pesquisadores_Varios - Execution started for pipeline [Dados_Producoes_Pesquisadores_Varios]
+2025/04/05 21:32:54 - Get file names.0 - Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)
+2025/04/05 21:32:54 - Table input Pesquisadores.0 - Finished reading query, closing connection.
+2025/04/05 21:32:54 - Table input Pesquisadores.0 - Finished processing (I=2, O=0, R=0, W=2, U=0, E=0)
+2025/04/05 21:32:54 - Sort rows Pesquisadores.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)
+2025/04/05 21:32:54 - Get data from XML.0 - Finished processing (I=118, O=0, R=2, W=118, U=0, E=0)
+2025/04/05 21:32:54 - Select Produções.0 - Finished processing (I=0, O=0, R=118, W=118, U=0, E=0)
+2025/04/05 21:32:54 - Sort rows Produções.0 - Finished processing (I=0, O=0, R=118, W=118, U=0, E=0)
+2025/04/05 21:32:54 - Merge join.0 - Finished processing (I=0, O=0, R=120, W=118, U=0, E=0)
+2025/04/05 21:32:54 - Insert / update.0 - Finished processing (I=118, O=0, R=118, W=118, U=91, E=0)
+2025/04/05 21:32:54 - Dados_Producoes_Pesquisadores_Varios - Pipeline duration : 0.493 seconds [  0.493" ]
+2025/04/05 21:32:54 - Dados_Producoes_Pesquisadores_Varios - Execution finished on a local pipeline engine with run configuration 'local'
+2025/04/05 21:32:54 - lattes - Starting action [Success]
+2025/04/05 21:32:54 - lattes - Finished action [Success] (result=[true])
+2025/04/05 21:32:54 - lattes - Finished action [Dados_Producoes_Pesquisadores_Varios.hpl] (result=[true])
+2025/04/05 21:32:54 - lattes - Finished action [ Dados_Pesquisadores_Varios.hpl] (result=[true])
+2025/04/05 21:32:54 - lattes - Workflow execution finished
+2025/04/05 21:32:54 - Hop - Workflow execution has ended
+2025/04/05 21:32:54 - lattes - Workflow duration : 0.722 seconds [  0.722" ]

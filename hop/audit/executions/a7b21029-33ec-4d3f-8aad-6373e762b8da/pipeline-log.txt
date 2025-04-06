@@ -1,0 +1,38 @@
+2025/04/05 21:29:26 - Dados_Producoes_Pesquisadores_Varios - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/04/05 21:29:26 - Dados_Producoes_Pesquisadores_Varios - Execution started for pipeline [Dados_Producoes_Pesquisadores_Varios]
+2025/04/05 21:29:27 - Get file names.0 - Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)
+2025/04/05 21:29:27 - Table input Pesquisadores.0 - Finished reading query, closing connection.
+2025/04/05 21:29:27 - Table input Pesquisadores.0 - Finished processing (I=2, O=0, R=0, W=2, U=0, E=0)
+2025/04/05 21:29:27 - Sort rows Pesquisadores.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)
+2025/04/05 21:29:27 - Get data from XML.0 - Finished processing (I=118, O=0, R=2, W=118, U=0, E=0)
+2025/04/05 21:29:27 - Select Produções.0 - Finished processing (I=0, O=0, R=118, W=118, U=0, E=0)
+2025/04/05 21:29:27 - Sort rows Produções.0 - Finished processing (I=0, O=0, R=118, W=118, U=0, E=0)
+2025/04/05 21:29:27 - Insert / update.0 - ERROR: Error in transform, asking everyone to stop because of:
+2025/04/05 21:29:27 - Insert / update.0 - ERROR: org.apache.hop.core.exception.HopDatabaseException: 
+2025/04/05 21:29:27 - Insert / update.0 - Error looking up row in database
+2025/04/05 21:29:27 - Insert / update.0 - ERROR: column "nomeartigo" does not exist
+  Position: 8
+2025/04/05 21:29:27 - Insert / update.0 - 
+2025/04/05 21:29:27 - Insert / update.0 - 	at org.apache.hop.core.database.Database.getLookup(Database.java:2855)
+2025/04/05 21:29:27 - Insert / update.0 - 	at org.apache.hop.core.database.Database.getLookup(Database.java:2832)
+2025/04/05 21:29:27 - Insert / update.0 - 	at org.apache.hop.core.database.Database.getLookup(Database.java:2827)
+2025/04/05 21:29:27 - Insert / update.0 - 	at org.apache.hop.pipeline.transforms.insertupdate.InsertUpdate.lookupValues(InsertUpdate.java:86)
+2025/04/05 21:29:27 - Insert / update.0 - 	at org.apache.hop.pipeline.transforms.insertupdate.InsertUpdate.processRow(InsertUpdate.java:322)
+2025/04/05 21:29:27 - Insert / update.0 - 	at org.apache.hop.pipeline.transform.RunThread.run(RunThread.java:54)
+2025/04/05 21:29:27 - Insert / update.0 - 	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025/04/05 21:29:27 - Insert / update.0 - Caused by: org.postgresql.util.PSQLException: ERROR: column "nomeartigo" does not exist
+  Position: 8
+2025/04/05 21:29:27 - Insert / update.0 - 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2733)
+2025/04/05 21:29:27 - Insert / update.0 - 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2420)
+2025/04/05 21:29:27 - Insert / update.0 - 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:372)
+2025/04/05 21:29:27 - Insert / update.0 - 	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:517)
+2025/04/05 21:29:27 - Insert / update.0 - 	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:434)
+2025/04/05 21:29:27 - Insert / update.0 - 	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+2025/04/05 21:29:27 - Insert / update.0 - 	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:137)
+2025/04/05 21:29:27 - Insert / update.0 - 	at org.apache.hop.core.database.Database.getLookup(Database.java:2841)
+2025/04/05 21:29:27 - Insert / update.0 - 	... 6 more
+2025/04/05 21:29:27 - Insert / update.0 - Finished processing (I=0, O=0, R=1, W=0, U=0, E=1)
+2025/04/05 21:29:27 - Dados_Producoes_Pesquisadores_Varios - Pipeline detected one or more transforms with errors.
+2025/04/05 21:29:27 - Dados_Producoes_Pesquisadores_Varios - Pipeline is killing the other transforms!
+2025/04/05 21:29:27 - Merge join.0 - Finished processing (I=0, O=0, R=76, W=73, U=0, E=0)
+2025/04/05 21:29:27 - Dados_Producoes_Pesquisadores_Varios - Pipeline duration : 0.296 seconds [  0.296" ]

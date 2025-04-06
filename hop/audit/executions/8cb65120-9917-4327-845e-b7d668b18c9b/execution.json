@@ -1,0 +1,16 @@
+{
+  "name" : "Start",
+  "filename" : null,
+  "id" : "8cb65120-9917-4327-845e-b7d668b18c9b",
+  "parentId" : "6f21449d-ec54-4a2c-a93c-c88622a70800",
+  "executionType" : "Action",
+  "executorXml" : null,
+  "metadataJson" : null,
+  "runConfigurationName" : null,
+  "logLevel" : "BASIC",
+  "parameterValues" : { },
+  "environmentDetails" : { },
+  "registrationDate" : 1743899573917,
+  "executionStartDate" : 1743899573917,
+  "copyNr" : null
+}

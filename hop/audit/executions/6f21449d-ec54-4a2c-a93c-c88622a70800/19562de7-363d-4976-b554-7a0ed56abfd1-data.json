@@ -1,0 +1,37 @@
+{
+  "executionType" : "Action",
+  "dataSetMeta" : {
+    "setKey" : "19562de7-363d-4976-b554-7a0ed56abfd1",
+    "logChannelId" : "19562de7-363d-4976-b554-7a0ed56abfd1",
+    "name" : "Success",
+    "fieldName" : null,
+    "sampleDescription" : null,
+    "copyNr" : "2",
+    "description" : "action"
+  },
+  "finished" : true,
+  "collectionDate" : 1743899574618,
+  "parentId" : "6f21449d-ec54-4a2c-a93c-c88622a70800",
+  "ownerId" : "19562de7-363d-4976-b554-7a0ed56abfd1",
+  "setMetaData" : {
+    "result" : {
+      "setKey" : "result",
+      "logChannelId" : "19562de7-363d-4976-b554-7a0ed56abfd1",
+      "name" : "Success",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "2",
+      "description" : "Result details of action"
+    },
+    "files" : {
+      "setKey" : "files",
+      "logChannelId" : "19562de7-363d-4976-b554-7a0ed56abfd1",
+      "name" : "Success",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "2",
+      "description" : "Result files of action"
+    }
+  },
+  "rowsBinaryGzipBase64Encoded" : "H4sIAAAAAAAA/71RTU8CMRAtAisnE/8BB4/KsEu2i1yM0YQrkeCVNMsA1W676XRVfr3u8JFw8OBlnaSvL9OXvteOEOJCRB6pMkEwPyyu9jvuvn+p+qh1yzBg8cvNUS66aO8W85YQZ43lYl6T68cCvc4VzJVbzlRlnDjz6X4oU2GTTm2Gy8MjH5h3gq+QSYTeO09MW0PGHgVXlrjay7prZQjrTRuk4z2n1D1uWlU0Gvxk1gm78l+MIuf1RtvGrbb8exMAeJrAgtATvGqrc10RPLtPa5xaEWxdCbmza72B0rs3zAOBUSEgQYFBrVRQwEAY4KswEN9LGctsGKfjJM2G40Hd3E9+iha92vOrKYY+m/d5dtRYFpnFMknSVGYyyUbJ6A9ZfgB0zOSaiwMAAA=="
+}

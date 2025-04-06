@@ -1,0 +1,99 @@
+2025/04/05 21:28:42 - Dados_Producoes_Pesquisadores_Varios - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/04/05 21:28:42 - Dados_Producoes_Pesquisadores_Varios - Execution started for pipeline [Dados_Producoes_Pesquisadores_Varios]
+2025/04/05 21:28:42 - Get file names.0 - Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - ERROR: Unexpected error
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - ERROR: org.apache.hop.core.exception.HopDatabaseException: 
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - An error occurred executing SQL: 
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - SELECT 
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - 	pesquisadores_id,
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - 	lattes_id,
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - 	nonme
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - FROM "public".pesquisadores
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - ERROR: column "nonme" does not exist
+  Hint: Perhaps you meant to reference the column "pesquisadores.nome".
+  Position: 44
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - 
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - 	at org.apache.hop.core.database.Database.openQuery(Database.java:1596)
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - 	at org.apache.hop.pipeline.transforms.tableinput.TableInput.doQuery(TableInput.java:231)
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - 	at org.apache.hop.pipeline.transforms.tableinput.TableInput.processRow(TableInput.java:137)
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - 	at org.apache.hop.pipeline.transform.RunThread.run(RunThread.java:54)
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - 	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - Caused by: org.postgresql.util.PSQLException: ERROR: column "nonme" does not exist
+  Hint: Perhaps you meant to reference the column "pesquisadores.nome".
+  Position: 44
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2733)
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2420)
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:372)
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - 	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:517)
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - 	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:434)
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - 	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:356)
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - 	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:341)
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - 	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:317)
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - 	at org.postgresql.jdbc.PgStatement.executeQuery(PgStatement.java:266)
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - 	at org.apache.hop.core.database.Database.openQuery(Database.java:1585)
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - 	... 4 more
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - Finished reading query, closing connection.
+2025/04/05 21:28:42 - Get data from XML.0 - Finished processing (I=1, O=0, R=1, W=0, U=0, E=0)
+2025/04/05 21:28:42 - Table input Pesquisadores.0 - Finished processing (I=0, O=0, R=0, W=0, U=0, E=1)
+2025/04/05 21:28:42 - Dados_Producoes_Pesquisadores_Varios - Pipeline detected one or more transforms with errors.
+2025/04/05 21:28:42 - Dados_Producoes_Pesquisadores_Varios - Pipeline is killing the other transforms!
+2025/04/05 21:28:42 - Merge join.0 - ERROR: Unexpected error
+2025/04/05 21:28:42 - Merge join.0 - ERROR: org.apache.hop.core.exception.HopTransformException: 
+2025/04/05 21:28:42 - Merge join.0 - Unable to get queryfields for SQL: 
+2025/04/05 21:28:42 - Merge join.0 - SELECT 
+	pesquisadores_id,
+	lattes_id,
+	nonme
+FROM "public".pesquisadores
+2025/04/05 21:28:42 - Merge join.0 - 
+2025/04/05 21:28:42 - Merge join.0 - Couldn't get field info from [SELECT 
+	pesquisadores_id,
+	lattes_id,
+	nonme
+FROM "public".pesquisadores]
+2025/04/05 21:28:42 - Merge join.0 - 
+2025/04/05 21:28:42 - Merge join.0 - ERROR: column "nonme" does not exist
+  Hint: Perhaps you meant to reference the column "pesquisadores.nome".
+  Position: 41
+2025/04/05 21:28:42 - Merge join.0 - 
+2025/04/05 21:28:42 - Merge join.0 - 
+2025/04/05 21:28:42 - Merge join.0 - 	at org.apache.hop.pipeline.transforms.tableinput.TableInputMeta.getFields(TableInputMeta.java:241)
+2025/04/05 21:28:42 - Merge join.0 - 	at org.apache.hop.pipeline.transform.BaseTransformMeta.getFields(BaseTransformMeta.java:328)
+2025/04/05 21:28:42 - Merge join.0 - 	at org.apache.hop.pipeline.PipelineMeta.getThisTransformFields(PipelineMeta.java:1413)
+2025/04/05 21:28:42 - Merge join.0 - 	at org.apache.hop.pipeline.PipelineMeta.getTransformFields(PipelineMeta.java:1221)
+2025/04/05 21:28:42 - Merge join.0 - 	at org.apache.hop.pipeline.PipelineMeta.getTransformFields(PipelineMeta.java:1198)
+2025/04/05 21:28:42 - Merge join.0 - 	at org.apache.hop.pipeline.PipelineMeta.getTransformFields(PipelineMeta.java:1115)
+2025/04/05 21:28:42 - Merge join.0 - 	at org.apache.hop.pipeline.PipelineMeta.getTransformFields(PipelineMeta.java:1081)
+2025/04/05 21:28:42 - Merge join.0 - 	at org.apache.hop.pipeline.PipelineMeta.getTransformFields(PipelineMeta.java:1066)
+2025/04/05 21:28:42 - Merge join.0 - 	at org.apache.hop.pipeline.transforms.mergejoin.MergeJoin.processRow(MergeJoin.java:97)
+2025/04/05 21:28:42 - Merge join.0 - 	at org.apache.hop.pipeline.transform.RunThread.run(RunThread.java:54)
+2025/04/05 21:28:42 - Merge join.0 - 	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025/04/05 21:28:42 - Merge join.0 - Caused by: org.apache.hop.core.exception.HopDatabaseException: 
+2025/04/05 21:28:42 - Merge join.0 - Couldn't get field info from [SELECT 
+	pesquisadores_id,
+	lattes_id,
+	nonme
+FROM "public".pesquisadores]
+2025/04/05 21:28:42 - Merge join.0 - 
+2025/04/05 21:28:42 - Merge join.0 - ERROR: column "nonme" does not exist
+  Hint: Perhaps you meant to reference the column "pesquisadores.nome".
+  Position: 41
+2025/04/05 21:28:42 - Merge join.0 - 
+2025/04/05 21:28:42 - Merge join.0 - 	at org.apache.hop.core.database.Database.getQueryFieldsFallback(Database.java:2272)
+2025/04/05 21:28:42 - Merge join.0 - 	at org.apache.hop.core.database.Database.getQueryFields(Database.java:2099)
+2025/04/05 21:28:42 - Merge join.0 - 	at org.apache.hop.pipeline.transforms.tableinput.TableInputMeta.getFields(TableInputMeta.java:230)
+2025/04/05 21:28:42 - Merge join.0 - 	... 10 more
+2025/04/05 21:28:42 - Merge join.0 - Caused by: org.postgresql.util.PSQLException: ERROR: column "nonme" does not exist
+  Hint: Perhaps you meant to reference the column "pesquisadores.nome".
+  Position: 41
+2025/04/05 21:28:42 - Merge join.0 - 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2733)
+2025/04/05 21:28:42 - Merge join.0 - 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2420)
+2025/04/05 21:28:42 - Merge join.0 - 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:372)
+2025/04/05 21:28:42 - Merge join.0 - 	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:517)
+2025/04/05 21:28:42 - Merge join.0 - 	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:434)
+2025/04/05 21:28:42 - Merge join.0 - 	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+2025/04/05 21:28:42 - Merge join.0 - 	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:137)
+2025/04/05 21:28:42 - Merge join.0 - 	at org.apache.hop.core.database.Database.getQueryFieldsFallback(Database.java:2249)
+2025/04/05 21:28:42 - Merge join.0 - 	... 12 more
+2025/04/05 21:28:42 - Merge join.0 - Finished processing (I=0, O=0, R=0, W=0, U=0, E=1)
+2025/04/05 21:28:42 - Dados_Producoes_Pesquisadores_Varios - Pipeline duration : 0.189 seconds [  0.189" ]

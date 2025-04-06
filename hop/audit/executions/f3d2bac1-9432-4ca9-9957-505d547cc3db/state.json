@@ -1,0 +1,17 @@
+{
+  "executionType" : "Transform",
+  "parentId" : "534dfb7c-fbbc-4190-960b-f11c4c2fdd45",
+  "id" : "f3d2bac1-9432-4ca9-9957-505d547cc3db",
+  "name" : "Table input Pesquisadores",
+  "copyNr" : "0",
+  "loggingText" : null,
+  "lastLogLineNr" : null,
+  "metrics" : [ ],
+  "statusDescription" : "Finished",
+  "updateTime" : 1743899574585,
+  "childIds" : [ ],
+  "details" : { },
+  "failed" : false,
+  "executionEndDate" : 1743899574132,
+  "containerId" : null
+}

@@ -1,0 +1,129 @@
+{
+  "executionType" : "Pipeline",
+  "parentId" : null,
+  "id" : "ec57de97-7278-41b4-acce-135e3b7b6bfd",
+  "name" : "Dados_Producoes_Pesquisadores_Varios",
+  "copyNr" : null,
+  "loggingText" : "2025/04/05 21:28:42 - Dados_Producoes_Pesquisadores_Varios - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'\r\n2025/04/05 21:28:42 - Dados_Producoes_Pesquisadores_Varios - Execution started for pipeline [Dados_Producoes_Pesquisadores_Varios]\r\n2025/04/05 21:28:42 - Get file names.0 - Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)\r\n2025/04/05 21:28:42 - Table input Pesquisadores.0 - ERROR: Unexpected error\r\n2025/04/05 21:28:42 - Table input Pesquisadores.0 - ERROR: org.apache.hop.core.exception.HopDatabaseException: \r\n2025/04/05 21:28:42 - Table input Pesquisadores.0 - An error occurred executing SQL: \r\n2025/04/05 21:28:42 - Table input Pesquisadores.0 - SELECT \r\n2025/04/05 21:28:42 - Table input Pesquisadores.0 - \tpesquisadores_id,\r\n2025/04/05 21:28:42 - Table input Pesquisadores.0 - \tlattes_id,\r\n2025/04/05 21:28:42 - Table input Pesquisadores.0 - \tnonme\r\n2025/04/05 21:28:42 - Table input Pesquisadores.0 - FROM \"public\".pesquisadores\r\n2025/04/05 21:28:42 - Table input Pesquisadores.0 - ERROR: column \"nonme\" does not exist\n  Hint: Perhaps you meant to reference the column \"pesquisadores.nome\".\n  Position: 44\r\n2025/04/05 21:28:42 - Table input Pesquisadores.0 - \r\n2025/04/05 21:28:42 - Table input Pesquisadores.0 - \tat org.apache.hop.core.database.Database.openQuery(Database.java:1596)\r\n2025/04/05 21:28:42 - Table input Pesquisadores.0 - \tat org.apache.hop.pipeline.transforms.tableinput.TableInput.doQuery(TableInput.java:231)\r\n2025/04/05 21:28:42 - Table input Pesquisadores.0 - \tat org.apache.hop.pipeline.transforms.tableinput.TableInput.processRow(TableInput.java:137)\r\n2025/04/05 21:28:42 - Table input Pesquisadores.0 - \tat org.apache.hop.pipeline.transform.RunThread.run(RunThread.java:54)\r\n2025/04/05 21:28:42 - Table input Pesquisadores.0 - \tat java.base/java.lang.Thread.run(Thread.java:1583)\r\n2025/04/05 21:28:42 - Table input Pesquisadores.0 - Caused by: org.postgresql.util.PSQLException: ERROR: column \"nonme\" does not exist\n",
+  "lastLogLineNr" : 102,
+  "metrics" : [ {
+    "componentName" : "Get file names",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 0,
+      "Buffers Output" : 1,
+      "Errors" : 0,
+      "Input" : 0,
+      "Written" : 2,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Get data from XML",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 1,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 1,
+      "Written" : 0,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 1
+    }
+  }, {
+    "componentName" : "Select Produções",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 0,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 0,
+      "Written" : 0,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Sort rows Produções",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 0,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 0,
+      "Written" : 0,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Table input Pesquisadores",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 0,
+      "Buffers Output" : 0,
+      "Errors" : 1,
+      "Input" : 0,
+      "Written" : 0,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Sort rows Pesquisadores",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 0,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 0,
+      "Written" : 0,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Merge join",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 0,
+      "Buffers Output" : 0,
+      "Errors" : 1,
+      "Input" : 0,
+      "Written" : 0,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Insert / update",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 0,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 0,
+      "Written" : 0,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  } ],
+  "statusDescription" : "Finished (with errors)",
+  "updateTime" : 1743899322749,
+  "childIds" : [ "0985c2b5-74ef-4298-aac9-c536bde66205", "b2391753-d4d4-40be-8fb6-8fe5fa7ef641", "398308bc-0d13-4972-84b9-e2f9888b4c13", "80a1bd1b-810a-4c68-8c5c-c83fd07f7ced", "06308dea-e436-467b-b453-93e101bcbb11", "27ccf7d0-5219-4dea-bce8-81a5279dfd92", "f7032deb-52f8-4678-b710-d1bf815dac11", "04339ea7-9d16-44b2-b8ef-882fd7e977ed" ],
+  "details" : { },
+  "failed" : true,
+  "executionEndDate" : 1743899322741,
+  "containerId" : "3a864d9b-5ddb-46c6-9b90-7439bbc451fc"
+}

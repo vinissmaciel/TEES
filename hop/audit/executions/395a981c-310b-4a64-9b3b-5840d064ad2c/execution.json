@@ -1,0 +1,16 @@
+{
+  "name" : "Select Produções",
+  "filename" : null,
+  "id" : "395a981c-310b-4a64-9b3b-5840d064ad2c",
+  "parentId" : "534dfb7c-fbbc-4190-960b-f11c4c2fdd45",
+  "executionType" : "Transform",
+  "executorXml" : null,
+  "metadataJson" : null,
+  "runConfigurationName" : null,
+  "logLevel" : "BASIC",
+  "parameterValues" : { },
+  "environmentDetails" : { },
+  "registrationDate" : 1743899574111,
+  "executionStartDate" : 1743899574083,
+  "copyNr" : "0"
+}

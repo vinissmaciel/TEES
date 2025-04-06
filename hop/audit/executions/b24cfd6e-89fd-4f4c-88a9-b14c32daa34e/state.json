@@ -1,0 +1,17 @@
+{
+  "executionType" : "Transform",
+  "parentId" : "5a1a6546-a235-4b07-a0f7-2074ec0b7afc",
+  "id" : "b24cfd6e-89fd-4f4c-88a9-b14c32daa34e",
+  "name" : "Select Produções",
+  "copyNr" : "0",
+  "loggingText" : null,
+  "lastLogLineNr" : null,
+  "metrics" : [ ],
+  "statusDescription" : "Finished",
+  "updateTime" : 1743899401129,
+  "childIds" : [ ],
+  "details" : { },
+  "failed" : false,
+  "executionEndDate" : 1743899400620,
+  "containerId" : "604c62ff-928c-4172-af9c-39d34330f624"
+}

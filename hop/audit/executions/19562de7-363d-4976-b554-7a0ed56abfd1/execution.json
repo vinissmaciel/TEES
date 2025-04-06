@@ -1,0 +1,16 @@
+{
+  "name" : "Success",
+  "filename" : null,
+  "id" : "19562de7-363d-4976-b554-7a0ed56abfd1",
+  "parentId" : "6f21449d-ec54-4a2c-a93c-c88622a70800",
+  "executionType" : "Action",
+  "executorXml" : null,
+  "metadataJson" : null,
+  "runConfigurationName" : null,
+  "logLevel" : "BASIC",
+  "parameterValues" : { },
+  "environmentDetails" : { },
+  "registrationDate" : 1743899574616,
+  "executionStartDate" : 1743899574616,
+  "copyNr" : null
+}

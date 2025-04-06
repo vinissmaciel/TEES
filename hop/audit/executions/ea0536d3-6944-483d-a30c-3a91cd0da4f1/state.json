@@ -1,0 +1,17 @@
+{
+  "executionType" : "Transform",
+  "parentId" : "b63bb4c0-4b0d-46ab-be48-386adf721ec7",
+  "id" : "ea0536d3-6944-483d-a30c-3a91cd0da4f1",
+  "name" : "Select values",
+  "copyNr" : "0",
+  "loggingText" : null,
+  "lastLogLineNr" : null,
+  "metrics" : [ ],
+  "statusDescription" : "Finished",
+  "updateTime" : 1743897458003,
+  "childIds" : [ ],
+  "details" : { },
+  "failed" : false,
+  "executionEndDate" : 1743897457995,
+  "containerId" : "95733bd8-c80f-4f46-bd40-7a56acb611e8"
+}
