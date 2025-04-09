@@ -1,0 +1,83 @@
+{
+  "executionType" : "Transform",
+  "dataSetMeta" : null,
+  "finished" : true,
+  "collectionDate" : 1744230450355,
+  "parentId" : "0151fabe-20f3-437c-8f40-61950b7d065c",
+  "ownerId" : "all-transforms",
+  "setMetaData" : {
+    "LastOutput/Select values.0" : {
+      "setKey" : "LastOutput/Select values.0",
+      "logChannelId" : "edf63e67-baa8-4b24-b440-b8aa6b306600",
+      "name" : "Select values",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of Select values.0"
+    },
+    "FirstOutput/Get data from XML.0" : {
+      "setKey" : "FirstOutput/Get data from XML.0",
+      "logChannelId" : "cfa73a62-c156-4b73-a23d-e9db78ba1404",
+      "name" : "Get data from XML",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of Get data from XML.0"
+    },
+    "FirstOutput/Get file names.0" : {
+      "setKey" : "FirstOutput/Get file names.0",
+      "logChannelId" : "4fe83e9d-92b3-4edc-a095-e88ae9740269",
+      "name" : "Get file names",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of Get file names.0"
+    },
+    "LastOutput/Get data from XML.0" : {
+      "setKey" : "LastOutput/Get data from XML.0",
+      "logChannelId" : "cfa73a62-c156-4b73-a23d-e9db78ba1404",
+      "name" : "Get data from XML",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of Get data from XML.0"
+    },
+    "LastOutput/Insert / update.0" : {
+      "setKey" : "LastOutput/Insert / update.0",
+      "logChannelId" : "05128cc1-5ff9-45f1-93c7-41ada95fdbf7",
+      "name" : "Insert / update",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of Insert / update.0"
+    },
+    "FirstOutput/Select values.0" : {
+      "setKey" : "FirstOutput/Select values.0",
+      "logChannelId" : "edf63e67-baa8-4b24-b440-b8aa6b306600",
+      "name" : "Select values",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of Select values.0"
+    },
+    "LastOutput/Get file names.0" : {
+      "setKey" : "LastOutput/Get file names.0",
+      "logChannelId" : "4fe83e9d-92b3-4edc-a095-e88ae9740269",
+      "name" : "Get file names",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of Get file names.0"
+    },
+    "FirstOutput/Insert / update.0" : {
+      "setKey" : "FirstOutput/Insert / update.0",
+      "logChannelId" : "05128cc1-5ff9-45f1-93c7-41ada95fdbf7",
+      "name" : "Insert / update",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of Insert / update.0"
+    }
+  },
+  "rowsBinaryGzipBase64Encoded" : "H4sIAAAAAAAA/+1a3VITMRROpWAFQZjxRkGJo5dC2jLdIt7I8KMoFcZSx4udwdBNaZzdzZpkpfoMXvsuvokPolde4Ga7xbXSGYU2HSWZ6babnOT7kpPd/c7pAgBy4OY2FnInlEEoUZW4pC7hO+yGRCzmAQCXko8qWZ955Dgp0fnkL+bHp5SkIxgl/kKtmgEgVbFfq0Y/ZlY9wmkdoypm+7s4dBlIIY5Rp+4Hb/Vhzm84IeYOgxXsh8SFDoGbnFCJBXzK+CFRNtNWuWAVi6WSVbaK5aXikqq88SQ8ZLCKDzDcJVEPjuGaGkjEY08XHlhWwSrnC6XlYqmcXwbzm5SfLPtjIqGDJYYNzjz4qrIdL/211ELkGtQlPvYiApmvySynVDdVD1WDSM0/c18dFlX/F/fO64Mp0WRc7g+PQDbAsjkEWPk+0DjbbGI2RlpUyPTwmoBzVDSp4xBfP/Q4FZxgBx+4RD/4BBVHnEqiF30kMZt2o7uvxxzaoMSR1NNIYTQxywr6gaTunKfARrVX70Yl/3Ah/uoXhc61doW0JPEFZRo3Xwd7JORUP+plzpgcCnL2+U5lIzX4zG9Pn+NTynlRc1vr26t7extVvciv11bsmiBc2C+pT+s0FPY6O/Jdhh1hN1lg15nfoId2wNmbSFYI28VSEmF7RGLFzFYHQaTd8ly7+yG+GFUqkOu9Gp71ET12ndodQC1Bpn38lPvy/VF7NaY+f4x3c2LaVKYrCKG1FRRTQB0K6IQCiiigNgXUoYDaFFCHAkoooGhc1GueEykwdf63YqjfjuoWaCeO6tWg01Hjd74N3FG95tntqLPJ3blu7frzphUL10lghGu8C4xwNcLVCFcjXAdznV8o4WqE3DCEnFFl2lXZ7VQ61uQFjbwy8srIKyOvjLwyecF+Ihth8++km/rtLqP+B5TGnUtJ1y0/YishgmEQQRPzLsEA3yWYTedjL/wrHGf48+FsnprtitRMFtyEaSZM0w1uwjQTpulH/R+y4CZs+cOwxUQf2qOPW2lJa2IJbaL2B9yYYLkSLgAA"
+}

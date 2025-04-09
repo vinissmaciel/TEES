@@ -1,0 +1,28 @@
+{
+  "executionType" : "Action",
+  "dataSetMeta" : {
+    "setKey" : "a34a7515-4e08-401d-8c0e-aa8f6cf6e2ac",
+    "logChannelId" : "a34a7515-4e08-401d-8c0e-aa8f6cf6e2ac",
+    "name" : " Dados_Pesquisadores_Varios.hpl",
+    "fieldName" : null,
+    "sampleDescription" : null,
+    "copyNr" : "1",
+    "description" : "action"
+  },
+  "finished" : true,
+  "collectionDate" : 1744230296579,
+  "parentId" : "c6e83af0-2a23-4fe3-a67a-5bed37f5975f",
+  "ownerId" : "a34a7515-4e08-401d-8c0e-aa8f6cf6e2ac",
+  "setMetaData" : {
+    "result" : {
+      "setKey" : "result",
+      "logChannelId" : "a34a7515-4e08-401d-8c0e-aa8f6cf6e2ac",
+      "name" : " Dados_Pesquisadores_Varios.hpl",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "1",
+      "description" : "Result details of action"
+    }
+  },
+  "rowsBinaryGzipBase64Encoded" : "H4sIAAAAAAAA/2NgYGBkYCtKLS7NKWFgYGCCYhBgzk6t/I8FAKUYdUCEHkhxkApUOQNrap5uaDAjAwOSQHxoMJAh6JibWpSZnKgfnJgfH5BYmpPPgGQPa1liTmkqLW1iBhHsEE/ag9WnJeYUp4JYbKlFRflFxSAmoyGI5CguyS8oSE1BUgcAscTdrSQBAAA="
+}

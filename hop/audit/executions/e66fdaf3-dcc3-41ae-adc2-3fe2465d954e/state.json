@@ -1,0 +1,17 @@
+{
+  "executionType" : "Transform",
+  "parentId" : "1e545430-a9d0-490e-92de-1b31c8b9c3d4",
+  "id" : "e66fdaf3-dcc3-41ae-adc2-3fe2465d954e",
+  "name" : "Merge join",
+  "copyNr" : "0",
+  "loggingText" : null,
+  "lastLogLineNr" : null,
+  "metrics" : [ ],
+  "statusDescription" : "Finished",
+  "updateTime" : 1744230268694,
+  "childIds" : [ ],
+  "details" : { },
+  "failed" : false,
+  "executionEndDate" : 1744230268574,
+  "containerId" : "d285407d-ec44-4e85-8533-2f389875df89"
+}

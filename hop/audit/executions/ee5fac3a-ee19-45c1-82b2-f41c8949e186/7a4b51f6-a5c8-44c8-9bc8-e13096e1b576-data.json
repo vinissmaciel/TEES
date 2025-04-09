@@ -1,0 +1,37 @@
+{
+  "executionType" : "Action",
+  "dataSetMeta" : {
+    "setKey" : "7a4b51f6-a5c8-44c8-9bc8-e13096e1b576",
+    "logChannelId" : "7a4b51f6-a5c8-44c8-9bc8-e13096e1b576",
+    "name" : "Dados_Pesquisadores_Varios.hpl",
+    "fieldName" : null,
+    "sampleDescription" : null,
+    "copyNr" : "1",
+    "description" : "action"
+  },
+  "finished" : true,
+  "collectionDate" : 1744230450357,
+  "parentId" : "ee5fac3a-ee19-45c1-82b2-f41c8949e186",
+  "ownerId" : "7a4b51f6-a5c8-44c8-9bc8-e13096e1b576",
+  "setMetaData" : {
+    "result" : {
+      "setKey" : "result",
+      "logChannelId" : "7a4b51f6-a5c8-44c8-9bc8-e13096e1b576",
+      "name" : "Dados_Pesquisadores_Varios.hpl",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "1",
+      "description" : "Result details of action"
+    },
+    "files" : {
+      "setKey" : "files",
+      "logChannelId" : "7a4b51f6-a5c8-44c8-9bc8-e13096e1b576",
+      "name" : "Dados_Pesquisadores_Varios.hpl",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "1",
+      "description" : "Result files of action"
+    }
+  },
+  "rowsBinaryGzipBase64Encoded" : "H4sIAAAAAAAA/71RTU8CMRAtAisnE/8BB4/KsEu2i1yM0YQrkeCVNMsA1W676XRVfr3u8JFw8OBlnaSvL9OXvteOEOJCRB6pMkEwPyyu9jvuvn+p+qh1yzBg8cvNUS66aO8W85YQZ43lYl6T68cCvc4VzJVbzlRlnDjz6X4oU2GTTm2Gy8MjH5h3gq+QSYTeO09MW0PGHgVXlrjay7prZQjrTRuk4z2n1D1uWlU0Gvxk1gm78l+MIuf1RtvGrbb8exMAeJrAgtATvGqrc10RPLtPa5xaEWxdCbmza72B0rs3zAOBUSEgQYFBrVRQwEAY4KswEN9LGctsGKfjJM2G40Hd3E9+iha92vOrKYY+m/d5dtRYFpnFMknSVGYyyUbJ6A9ZfgB0zOSaiwMAAA=="
+}

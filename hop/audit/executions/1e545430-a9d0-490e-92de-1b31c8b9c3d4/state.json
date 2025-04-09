@@ -1,0 +1,129 @@
+{
+  "executionType" : "Pipeline",
+  "parentId" : null,
+  "id" : "1e545430-a9d0-490e-92de-1b31c8b9c3d4",
+  "name" : "Dados_Producoes_Pesquisadores_Varios",
+  "copyNr" : null,
+  "loggingText" : "2025/04/09 17:24:27 - Dados_Producoes_Pesquisadores_Varios - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'\r\n2025/04/09 17:24:27 - Dados_Producoes_Pesquisadores_Varios - Execution started for pipeline [Dados_Producoes_Pesquisadores_Varios]\r\n2025/04/09 17:24:28 - Get file names.0 - Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)\r\n2025/04/09 17:24:28 - Table input Pesquisadores.0 - Finished reading query, closing connection.\r\n2025/04/09 17:24:28 - Table input Pesquisadores.0 - Finished processing (I=2, O=0, R=0, W=2, U=0, E=0)\r\n2025/04/09 17:24:28 - Sort rows Pesquisadores.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)\r\n2025/04/09 17:24:28 - Get data from XML.0 - Finished processing (I=118, O=0, R=2, W=118, U=0, E=0)\r\n2025/04/09 17:24:28 - Select Produções.0 - Finished processing (I=0, O=0, R=118, W=118, U=0, E=0)\r\n2025/04/09 17:24:28 - Sort rows Produções.0 - Finished processing (I=0, O=0, R=118, W=118, U=0, E=0)\r\n2025/04/09 17:24:28 - Merge join.0 - Finished processing (I=0, O=0, R=120, W=118, U=0, E=0)\r\n2025/04/09 17:24:28 - Insert / update.0 - Finished processing (I=118, O=50, R=118, W=118, U=68, E=0)\r\n2025/04/09 17:24:28 - Dados_Producoes_Pesquisadores_Varios - Pipeline duration : 0.704 seconds [  0.704\" ]\r\n",
+  "lastLogLineNr" : 50,
+  "metrics" : [ {
+    "componentName" : "Get file names",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 0,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 0,
+      "Written" : 2,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Get data from XML",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 2,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 118,
+      "Written" : 118,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Select Produções",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 118,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 0,
+      "Written" : 118,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Sort rows Produções",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 118,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 0,
+      "Written" : 118,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Table input Pesquisadores",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 0,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 2,
+      "Written" : 2,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Sort rows Pesquisadores",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 2,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 0,
+      "Written" : 2,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Merge join",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 120,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 0,
+      "Written" : 118,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Insert / update",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 118,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 118,
+      "Written" : 118,
+      "Updated" : 68,
+      "Output" : 50,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  } ],
+  "statusDescription" : "Finished",
+  "updateTime" : 1744230268674,
+  "childIds" : [ "442f3a88-e1b9-4222-83f3-d72ff6a94317", "7d8d82da-95b5-460c-8b10-9f962332e014", "4d56a4d2-283f-4590-9752-d028b661ddff", "7b55f37e-09fc-40b8-975a-67318aeb8175", "eaa8050d-7add-4cbe-9c3e-e24d197edcaf", "a1219efb-636e-4e46-84a2-a64d9d0ca804", "e66fdaf3-dcc3-41ae-adc2-3fe2465d954e", "4f7dd1c0-3a86-4d25-917d-7c4622c39371" ],
+  "details" : { },
+  "failed" : false,
+  "executionEndDate" : 1744230268672,
+  "containerId" : "d285407d-ec44-4e85-8533-2f389875df89"
+}

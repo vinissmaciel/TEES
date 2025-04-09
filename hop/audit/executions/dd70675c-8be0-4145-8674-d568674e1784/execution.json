@@ -1,0 +1,16 @@
+{
+  "name" : "Get data from XML",
+  "filename" : null,
+  "id" : "dd70675c-8be0-4145-8674-d568674e1784",
+  "parentId" : "be28c439-fb04-404a-872a-65d7122489c4",
+  "executionType" : "Transform",
+  "executorXml" : null,
+  "metadataJson" : null,
+  "runConfigurationName" : null,
+  "logLevel" : "BASIC",
+  "parameterValues" : { },
+  "environmentDetails" : { },
+  "registrationDate" : 1744230450435,
+  "executionStartDate" : 1744230450377,
+  "copyNr" : "0"
+}

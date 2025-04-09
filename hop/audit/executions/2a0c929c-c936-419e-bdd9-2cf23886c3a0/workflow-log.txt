@@ -1,0 +1,19 @@
+2025/04/09 17:26:08 - lattes - Start of workflow execution
+2025/04/09 17:26:08 - lattes - Starting action [ Dados_Pesquisadores_Varios.hpl]
+2025/04/09 17:26:08 -  Dados_Pesquisadores_Varios.hpl - ERROR: Unable to run workflow lattes. The  Dados_Pesquisadores_Varios.hpl has an error. The pipeline path C:\Users\Vinicius\Downloads\hop\config\projects\lattes/metadata/Pipeline/ Dados_Pesquisadores_Varios.hpl is invalid, and will not run successfully.
+2025/04/09 17:26:08 -  Dados_Pesquisadores_Varios.hpl - ERROR: org.apache.hop.core.exception.HopXmlException: 
+2025/04/09 17:26:08 -  Dados_Pesquisadores_Varios.hpl - The pipeline path C:\Users\Vinicius\Downloads\hop\config\projects\lattes/metadata/Pipeline/ Dados_Pesquisadores_Varios.hpl is invalid, and will not run successfully.
+2025/04/09 17:26:08 -  Dados_Pesquisadores_Varios.hpl - 
+2025/04/09 17:26:08 -  Dados_Pesquisadores_Varios.hpl - 	at org.apache.hop.pipeline.PipelineMeta.loadXml(PipelineMeta.java:1675)
+2025/04/09 17:26:08 -  Dados_Pesquisadores_Varios.hpl - 	at org.apache.hop.pipeline.PipelineMeta.<init>(PipelineMeta.java:1663)
+2025/04/09 17:26:08 -  Dados_Pesquisadores_Varios.hpl - 	at org.apache.hop.workflow.actions.pipeline.ActionPipeline.getPipelineMeta(ActionPipeline.java:633)
+2025/04/09 17:26:08 -  Dados_Pesquisadores_Varios.hpl - 	at org.apache.hop.workflow.actions.pipeline.ActionPipeline.execute(ActionPipeline.java:342)
+2025/04/09 17:26:08 -  Dados_Pesquisadores_Varios.hpl - 	at org.apache.hop.workflow.Workflow.executeFromStart(Workflow.java:751)
+2025/04/09 17:26:08 -  Dados_Pesquisadores_Varios.hpl - 	at org.apache.hop.workflow.Workflow.executeFromStart(Workflow.java:894)
+2025/04/09 17:26:08 -  Dados_Pesquisadores_Varios.hpl - 	at org.apache.hop.workflow.Workflow.executeFromStart(Workflow.java:453)
+2025/04/09 17:26:08 -  Dados_Pesquisadores_Varios.hpl - 	at org.apache.hop.workflow.Workflow.startExecution(Workflow.java:313)
+2025/04/09 17:26:08 -  Dados_Pesquisadores_Varios.hpl - 	at org.apache.hop.workflow.engines.local.LocalWorkflowEngine.startExecution(LocalWorkflowEngine.java:248)
+2025/04/09 17:26:08 -  Dados_Pesquisadores_Varios.hpl - 	at org.apache.hop.ui.hopgui.file.workflow.HopGuiWorkflowGraph.lambda$start$10(HopGuiWorkflowGraph.java:3723)
+2025/04/09 17:26:08 -  Dados_Pesquisadores_Varios.hpl - 	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025/04/09 17:26:08 - lattes - Finished action [ Dados_Pesquisadores_Varios.hpl] (result=[false])
+2025/04/09 17:26:08 - lattes - Workflow execution finished

@@ -1,0 +1,17 @@
+{
+  "executionType" : "Workflow",
+  "parentId" : null,
+  "id" : "c6e83af0-2a23-4fe3-a67a-5bed37f5975f",
+  "name" : "lattes",
+  "copyNr" : null,
+  "loggingText" : "2025/04/09 17:24:56 - lattes - Start of workflow execution\r\n2025/04/09 17:24:56 - lattes - Starting action [ Dados_Pesquisadores_Varios.hpl]\r\n2025/04/09 17:24:56 -  Dados_Pesquisadores_Varios.hpl - ERROR: Unable to run workflow lattes. The  Dados_Pesquisadores_Varios.hpl has an error. The pipeline path C:\\Users\\Vinicius\\Downloads\\hop\\config\\projects\\lattes/metadata/Pipeline/ Dados_Pesquisadores_Varios.hpl is invalid, and will not run successfully.\r\n2025/04/09 17:24:56 -  Dados_Pesquisadores_Varios.hpl - ERROR: org.apache.hop.core.exception.HopXmlException: \r\n2025/04/09 17:24:56 -  Dados_Pesquisadores_Varios.hpl - The pipeline path C:\\Users\\Vinicius\\Downloads\\hop\\config\\projects\\lattes/metadata/Pipeline/ Dados_Pesquisadores_Varios.hpl is invalid, and will not run successfully.\r\n2025/04/09 17:24:56 -  Dados_Pesquisadores_Varios.hpl - \r\n2025/04/09 17:24:56 -  Dados_Pesquisadores_Varios.hpl - \tat org.apache.hop.pipeline.PipelineMeta.loadXml(PipelineMeta.java:1675)\r\n2025/04/09 17:24:56 -  Dados_Pesquisadores_Varios.hpl - \tat org.apache.hop.pipeline.PipelineMeta.<init>(PipelineMeta.java:1663)\r\n2025/04/09 17:24:56 -  Dados_Pesquisadores_Varios.hpl - \tat org.apache.hop.workflow.actions.pipeline.ActionPipeline.getPipelineMeta(ActionPipeline.java:633)\r\n2025/04/09 17:24:56 -  Dados_Pesquisadores_Varios.hpl - \tat org.apache.hop.workflow.actions.pipeline.ActionPipeline.execute(ActionPipeline.java:342)\r\n2025/04/09 17:24:56 -  Dados_Pesquisadores_Varios.hpl - \tat org.apache.hop.workflow.Workflow.executeFromStart(Workflow.java:751)\r\n2025/04/09 17:24:56 -  Dados_Pesquisadores_Varios.hpl - \tat org.apache.hop.workflow.Workflow.executeFromStart(Workflow.java:894)\r\n2025/04/09 17:24:56 -  Dados_Pesquisadores_Varios.hpl - \tat org.apache.hop.workflow.Workflow.executeFromStart(Workflow.java:453)\r\n2025/04/09 17:24:56 -  Dados_Pesquisadores_Varios.hpl - \tat org.apache.hop.workflow.Workflow.startExecution(Workflow.java:313)\r\n2025/04/09 17:24:56 -  Dados_Pesquisadores_Varios.hpl - \tat org.apach",
+  "lastLogLineNr" : 59,
+  "metrics" : [ ],
+  "statusDescription" : "Finished (with errors)",
+  "updateTime" : 1744230296584,
+  "childIds" : [ "3276dc95-d52f-4226-a60e-364a0640d1b2", "a34a7515-4e08-401d-8c0e-aa8f6cf6e2ac" ],
+  "details" : { },
+  "failed" : true,
+  "executionEndDate" : 1744230296584,
+  "containerId" : null
+}

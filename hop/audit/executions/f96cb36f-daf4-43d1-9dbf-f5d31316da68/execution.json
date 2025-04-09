@@ -1,0 +1,16 @@
+{
+  "name" : "Merge join",
+  "filename" : null,
+  "id" : "f96cb36f-daf4-43d1-9dbf-f5d31316da68",
+  "parentId" : "be28c439-fb04-404a-872a-65d7122489c4",
+  "executionType" : "Transform",
+  "executorXml" : null,
+  "metadataJson" : null,
+  "runConfigurationName" : null,
+  "logLevel" : "BASIC",
+  "parameterValues" : { },
+  "environmentDetails" : { },
+  "registrationDate" : 1744230450439,
+  "executionStartDate" : 1744230450377,
+  "copyNr" : "0"
+}
