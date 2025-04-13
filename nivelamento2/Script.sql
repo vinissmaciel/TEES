@@ -252,10 +252,11 @@ FROM ts_stat('
     GROUP BY post.id, author.id
 ');
 
-#NÃO FUNCIONA
-CREATE INDEX words_idx ON search_words USING gin(word gin_trgm_ops);
+#CRIAÇÃO DO INDICIE DOS LEXEMAS EXCLUSIVOS
+CREATE INDEX words_idx ON unique_lexeme USING gin(word gin_trgm_ops);
 
 SELECT word
-WHERE similarity(word, 'samething') > 0.5
-ORDER BY word <-> 'samething'
+FROM unique_lexeme
+WHERE similarity(word, 'spech') > 0.5
+ORDER BY word <-> 'spech'
 LIMIT 1;
